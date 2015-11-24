@@ -1,5 +1,7 @@
 # solid-tools
-Tools and packages built on the Solid spec
+[![](https://img.shields.io/badge/project-Solid-7C4DFF.svg?style=flat-square)](https://github.com/solid/solid)
+
+> Tools and packages built on the Solid spec
 
 ## Servers
 
