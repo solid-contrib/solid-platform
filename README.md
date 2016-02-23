@@ -15,12 +15,14 @@ Name | LDP | Cors | WebID provider | WebID-TLS | WebID-RSA | WebID-Delegation | 
 [gold](https://github.com/linkeddata/gold)|Basic Containers, file storage|Proxy|Yes|Yes|Yes|Yes|Yes
 [ldnode](https://github.com/linkeddata/ldnode)|In progress, file storage|N/A|No|Yes|No|No|Yes
 
+##### [ldnode](https://github.com/linkeddata/ldnode)
+Reference Solid platform server written in Node.js/Express.
+
 ##### [gold](https://github.com/linkeddata/gold)
 Reference Solid platform server written in Go.
 See [databox.me](https://databox.me/) for an example instance.
-
-##### [ldnode](https://github.com/linkeddata/ldnode)
-Reference Solid platform server written in Node.js/Express.
+No longer under active development (the team is focusing on LDNode),
+but is in bugfix/maintenance mode.
 
 ##### [rww-play](https://github.com/read-write-web/rww-play)
 LDP-compliant Read-Write-Web server written in Scala/Play/akka.
