@@ -27,13 +27,6 @@ but is in bugfix/maintenance mode.
 ##### [rww-play](https://github.com/read-write-web/rww-play)
 LDP-compliant Read-Write-Web server written in Scala/Play/akka.
 
-## Incubator/Closed Source Servers
-Actively maintained, closed source.
-
-Name | LDP | Cors | WebID provider | WebID-TLS | WebID-RSA | WebID-Delegation | WAC   
------|-----|------|----------------|-----------|-----------|------------------|----
-[meccano](https://github.com/Qatar-Computing-Research-Institute/qcri-crosscloudP/tree/meccano)|Basic Containers (adaptor), SPARQL store|No|No|No|No|No|Partial
-
 ## Legacy Servers
 No longer actively maintained.
 
