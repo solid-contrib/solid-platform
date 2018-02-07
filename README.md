@@ -13,9 +13,9 @@ Name | LDP | Cors | WebID provider | WebID-TLS | WebID-RSA | WebID-Delegation | 
 -----|-----|------|----------------|-----------|-----------|------------------|----
 [rww-play](https://github.com/read-write-web/rww-play)|Basic Containers, file storage, SEARCH|Proxy|Yes|Yes|No|N/A|Yes
 [gold](https://github.com/linkeddata/gold)|Basic Containers, file storage|Proxy|Yes|Yes|Yes|Yes|Yes
-[ldnode](https://github.com/linkeddata/ldnode)|In progress, file storage|N/A|No|Yes|No|No|Yes
+[node-solid-server](https://github.com/solid/node-solid-server/)|Basic Containers, file storage|Proxy|Yes|Yes|No|In Progress|Yes
 
-##### [ldnode](https://github.com/linkeddata/ldnode)
+##### [node-solid-server](https://github.com/solid/node-solid-server/)
 Reference Solid platform server written in Node.js/Express.
 
 ##### [gold](https://github.com/linkeddata/gold)
