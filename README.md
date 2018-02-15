@@ -13,7 +13,7 @@ Name | [LDP](https://www.w3.org/TR/ldp/) | [CORS](https://github.com/solid/solid
 -----|-----|:----:|:--------------:|:---------:|:----------:|:---------:|:----------------:|:---:|:---:|
 [gold](https://github.com/linkeddata/gold)|Basic Containers, file storage|Proxy|Yes|Yes|No|Yes|Yes|Yes|Yes|
 [node-solid-server](https://github.com/solid/node-solid-server/)|Basic Containers, file storage|Proxy|Yes|Yes|Yes|No|In Progress|Yes|Yes|
-[OpenLink Virtuoso)](https://github.com/openlink/virtuoso-opensource/tree/develop/7/)|Basic Containers, file storage, SEARCH, PATCH|Yes|Yes|Yes|In Progress|Not Planned|Yes|Yes|Yes|
+[OpenLink Virtuoso](https://github.com/openlink/virtuoso-opensource/tree/develop/7/)|Basic Containers, file storage, SEARCH, PATCH|Yes|Yes|Yes|In Progress|Not Planned|Yes|Yes|Yes|
 [rww-play](https://github.com/read-write-web/rww-play)|Basic Containers, file storage, SEARCH|Proxy|  Yes  |  Yes  |  No  |  No  |  N/A  |  Yes  |  ?  |
 
 ##### [gold](https://github.com/linkeddata/gold)
