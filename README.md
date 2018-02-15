@@ -26,7 +26,7 @@ See [databox.me](https://databox.me/) for an example instance.
 Reference Solid platform server written in Node.js/Express.
 
 ##### [OpenLink Virtuoso WebDAV File System Module (a/k/a OpenLink Data Spaces Layer)](http://ods.openlinksw.com/owiki/wiki/ODS)
-ODS is a Data Space Shim built around [Virtuoso](https://virtuoso.openlinksw.com/)'s WebDAV layer that adheres to Solid conventions of —
+OpenLink Data Spaces (ODS) is a Data Space Shim built around [Virtuoso](https://virtuoso.openlinksw.com/)'s WebDAV layer that adheres to Solid conventions of —
 * Identity — via WebID
 * Identity Verification (or Authentication) — via WebID+TLS or WebID-OIDC _(WebID-OIDC is still a WIP)_
 * Document Access Controls (or Authorization) — via WebACLS or WAC
