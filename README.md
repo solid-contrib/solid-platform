@@ -9,20 +9,30 @@ end-user applications).
 ## Servers
 Actively maintained, open source.
 
-Name | LDP | Cors | WebID provider | WebID-TLS | WebID-OIDC | WebID-RSA | WebID-Delegation | WAC | WSS   
------|-----|------|----------------|-----------|------------|-----------|------------------|-----|----
-[rww-play](https://github.com/read-write-web/rww-play)|Basic Containers, file storage, SEARCH|Proxy|Yes|Yes|No|No|N/A|Yes| ?
-[gold](https://github.com/linkeddata/gold)|Basic Containers, file storage|Proxy|Yes|Yes|No|Yes|Yes|Yes|Yes
-[node-solid-server](https://github.com/solid/node-solid-server/)|Basic Containers, file storage|Proxy|Yes|Yes|Yes|No|In Progress|Yes|Yes
+Name | [LDP](https://www.w3.org/TR/ldp/) | [CORS](https://github.com/solid/solid-spec/blob/master/recommendations-server.md) | [WebID](https://github.com/solid/solid-spec/blob/master/solid-webid-profiles.md) IdP | [WebID-TLS](https://github.com/solid/solid-spec/blob/master/authn-webid-tls.md) | [WebID-OIDC](https://github.com/solid/webid-oidc-spec) | [WebID-RSA](https://github.com/solid/solid/blob/master/proposals/auth-webid-rsa.md) | WebID-Delegation | [WAC](https://github.com/solid/web-access-control-spec) | [WSS](https://github.com/solid/solid-spec/blob/master/api-websockets.md) |
+-----|-----|:----:|:--------------:|:---------:|:----------:|:---------:|:----------------:|:---:|:---:|
+[gold](https://github.com/linkeddata/gold)|Basic Containers, file storage|Proxy|Yes|Yes|No|Yes|Yes|Yes|Yes|
+[node-solid-server](https://github.com/solid/node-solid-server/)|Basic Containers, file storage|Proxy|Yes|Yes|Yes|No|In Progress|Yes|Yes|
+[ODS (OpenLink Data Spaces)](https://github.com/openlink/virtuoso-opensource/tree/develop/7/appsrc)|Basic Containers, file storage, SEARCH, PATCH|Yes|Yes|Yes|In Progress|Not Planned|Yes|Yes|Yes|
+[rww-play](https://github.com/read-write-web/rww-play)|Basic Containers, file storage, SEARCH|Proxy|  Yes  |  Yes  |  No  |  No  |  N/A  |  Yes  |  ?  |
+
+##### [gold](https://github.com/linkeddata/gold)
+*No longer under active development (the team is focusing on LDNode),
+gold is in bugfix/maintenance mode.*
+Reference Solid platform server written in Go.
+See [databox.me](https://databox.me/) for an example instance.
 
 ##### [node-solid-server](https://github.com/solid/node-solid-server/)
 Reference Solid platform server written in Node.js/Express.
 
-##### [gold](https://github.com/linkeddata/gold)
-Reference Solid platform server written in Go.
-See [databox.me](https://databox.me/) for an example instance.
-No longer under active development (the team is focusing on LDNode),
-but is in bugfix/maintenance mode.
+##### [OpenLink Data Spaces (ODS)](http://ods.openlinksw.com/owiki/wiki/ODS)
+ODS is a Data Space Shim built around [Virtuoso](https://virtuoso.openlinksw.com/)'s WebDAV layer that adheres to Solid conventions of —
+* Identity — via WebID
+* Identity Verification (or Authentication) — via WebID+TLS or WebID-OIDC _(WebID-OIDC is still a WIP)_
+* Document Access Controls (or Authorization) — via WebACLS
+* Read-Write Operations on Documents — via HTTP PATCH using `application/sparql-update` payloads
+
+Also see [Project Source](https://github.com/openlink/virtuoso-opensource/tree/develop/7/appsrc).
 
 ##### [rww-play](https://github.com/read-write-web/rww-play)
 LDP-compliant Read-Write-Web server written in Scala/Play/akka.
@@ -32,7 +42,7 @@ No longer actively maintained.
 
 ##### [ldphp](https://github.com/linkeddata/ldphp)
 LDP PHP server, implementing LDP Basic Containers and file serving.
-Not implemented: WAC, WebID-RSA or WebID-Delegation.
+Not implemented: WAC, WebID-RSA, or WebID-Delegation.
 
 ## Libraries
 
