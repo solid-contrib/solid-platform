@@ -13,8 +13,8 @@ Name | [LDP](https://www.w3.org/TR/ldp/) | [CORS](https://github.com/solid/solid
 -----|-----|:----:|:--------------:|:---------:|:----------:|:---------:|:----------------:|:---:|:---:|
 [gold](https://github.com/linkeddata/gold)|Basic Containers, file storage|Proxy|Yes|Yes|No|Yes|Yes|Yes|Yes|
 [node-solid-server](https://github.com/solid/node-solid-server/)|Basic Containers, file storage|Proxy|Yes|Yes|Yes|No|In Progress|Yes|Yes|
-[ODS (OpenLink Data Spaces)](https://github.com/openlink/virtuoso-opensource/tree/develop/7/appsrc)|Basic Containers, file storage, SEARCH, PATCH|Yes|Yes|Yes|In Progress|Not Planned|Yes|Yes|Yes|
 [rww-play](https://github.com/read-write-web/rww-play)|Basic Containers, file storage, SEARCH|Proxy|  Yes  |  Yes  |  No  |  No  |  N/A  |  Yes  |  ?  |
+[Virtuoso WebDAV File System Module (a/k/a OpenLink Data Spaces Layer)](https://github.com/openlink/virtuoso-opensource/tree/develop/7/appsrc)|Basic Containers, file storage, SEARCH, PATCH|Yes|Yes|Yes|In Progress|Not Planned|Yes|Yes|Yes|
 
 ##### [gold](https://github.com/linkeddata/gold)
 *No longer under active development (the team is focusing on LDNode),
@@ -25,17 +25,17 @@ See [databox.me](https://databox.me/) for an example instance.
 ##### [node-solid-server](https://github.com/solid/node-solid-server/)
 Reference Solid platform server written in Node.js/Express.
 
-##### [OpenLink Data Spaces (ODS)](http://ods.openlinksw.com/owiki/wiki/ODS)
+##### [rww-play](https://github.com/read-write-web/rww-play)
+LDP-compliant Read-Write-Web server written in Scala/Play/akka.
+
+##### [Virtuoso WebDAV File System Module (a/k/a OpenLink Data Spaces Layer)](http://ods.openlinksw.com/owiki/wiki/ODS)
 ODS is a Data Space Shim built around [Virtuoso](https://virtuoso.openlinksw.com/)'s WebDAV layer that adheres to Solid conventions of —
 * Identity — via WebID
 * Identity Verification (or Authentication) — via WebID+TLS or WebID-OIDC _(WebID-OIDC is still a WIP)_
-* Document Access Controls (or Authorization) — via WebACLS
+* Document Access Controls (or Authorization) — via WebACLS or WAC
 * Read-Write Operations on Documents — via HTTP PATCH using `application/sparql-update` payloads
 
-Also see [Project Source](https://github.com/openlink/virtuoso-opensource/tree/develop/7/appsrc).
-
-##### [rww-play](https://github.com/read-write-web/rww-play)
-LDP-compliant Read-Write-Web server written in Scala/Play/akka.
+Minimum installation is Virtuoso plus VAL, ODS-Framework, and ODS-Briefcase VADs.  Also see [Project Source](https://github.com/openlink/virtuoso-opensource/tree/develop/7/appsrc).
 
 ## Legacy Servers
 No longer actively maintained.
