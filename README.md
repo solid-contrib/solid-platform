@@ -9,11 +9,11 @@ end-user applications).
 ## Servers
 Actively maintained, open source.
 
-Name | LDP | Cors | WebID provider | WebID-TLS | WebID-OIDC | WebID-RSA | WebID-Delegation | WAC   
------|-----|------|----------------|-----------|------------|-----------|------------------|----
-[rww-play](https://github.com/read-write-web/rww-play)|Basic Containers, file storage, SEARCH|Proxy|Yes|Yes|No|No|N/A|Yes
-[gold](https://github.com/linkeddata/gold)|Basic Containers, file storage|Proxy|Yes|Yes|No|Yes|Yes|Yes
-[node-solid-server](https://github.com/solid/node-solid-server/)|Basic Containers, file storage|Proxy|Yes|Yes|Yes|No|In Progress|Yes
+Name | LDP | Cors | WebID provider | WebID-TLS | WebID-OIDC | WebID-RSA | WebID-Delegation | WAC | WSS   
+-----|-----|------|----------------|-----------|------------|-----------|------------------|-----|----
+[rww-play](https://github.com/read-write-web/rww-play)|Basic Containers, file storage, SEARCH|Proxy|Yes|Yes|No|No|N/A|Yes| ?
+[gold](https://github.com/linkeddata/gold)|Basic Containers, file storage|Proxy|Yes|Yes|No|Yes|Yes|Yes|Yes
+[node-solid-server](https://github.com/solid/node-solid-server/)|Basic Containers, file storage|Proxy|Yes|Yes|Yes|No|In Progress|Yes|Yes
 
 ##### [node-solid-server](https://github.com/solid/node-solid-server/)
 Reference Solid platform server written in Node.js/Express.
