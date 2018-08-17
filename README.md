@@ -1,10 +1,9 @@
 # solid-platform
 [![](https://img.shields.io/badge/project-Solid-7C4DFF.svg?style=flat-square)](https://github.com/solid/solid)
 
-Servers, Tools and packages built on the
+Servers, tools and packages built on the
 [Solid platform](https://github.com/solid/solid-spec).
-(See also [solid-apps](https://github.com/solid/solid-apps) for a list of
-end-user applications).
+(Also see lists of [end-user applications](https://github.com/solid/solid-apps) and [running implementations of Solid-compatible servers](https://github.com/solid/node-solid-server/wiki/Running-Test-Implementations-of-Solid-compatible-servers)).
 
 ## Servers
 _(Note -- you will need to scroll the table to see all columns!)_
@@ -14,7 +13,8 @@ Name | Development Status | Project Type | [LDP](https://www.w3.org/TR/ldp/) | [
 [gold](https://github.com/linkeddata/gold) | Bugfix | Open Source | Basic Containers, file storage | Proxy | Yes | Yes | No | Yes | Yes | Yes | Yes | 
 [ldphp](https://github.com/linkeddata/ldphp) | Inactive | Open Source | Basic Containers, file storage | ? | ? | ? | No | No | No | No | ? | 
 [node-solid-server](https://github.com/solid/node-solid-server/) | Active | Open Source | Basic Containers, file storage | Proxy | Yes | Yes | Yes | No | In Progress | Yes | Yes | 
-[OpenLink Virtuoso](http://virtuoso.openlinksw.com/) _(Enterprise Edition)_ | Active | Closed Source | Basic Containers, file storage, `SEARCH`, `PATCH` | Yes | Yes | Yes | In Progress | Not Planned | Yes | Yes | Yes | 
+[OpenLink Virtuoso](http://virtuoso.openlinksw.com/) _(Enterprise Edition)_ | Active | Closed Source | Basic Containers, file storage, `SEARCH`, `PATCH` | Yes | Yes | Yes | Yes | Not Planned | Yes | Yes | Yes | 
+[OpenLink node-solid-server](https://github.com/OpenLinkSoftware/node-solid-server) | Active | Open Source | Basic Containers, file storage | Proxy | Yes | Yes | Yes | No | Yes | Yes | Yes | 
 [rww-play](https://github.com/read-write-web/rww-play) | Active | Open Source | Basic Containers, file storage, `SEARCH` | Proxy | Yes | Yes | No | No | N/A | Yes | ? | 
 
 ### Actively maintained
@@ -35,6 +35,9 @@ More specifically, the WebDAV File System Module a/k/a OpenLink Data Spaces (ODS
 * Read-Write Operations on Documents — via HTTP `PATCH` using `application/sparql-update` payloads
 
 Minimum installation atop basic Virtuoso (Enterprise Edition only) is Virtuoso Authentication Layer (VAL), ODS-Framework, and ODS-Briefcase VADs.
+
+#### [OpenLink node-solid-server](https://github.com/OpenLinkSoftware/node-solid-server)
+Fork of the reference Solid platform server written in Node.js/Express.
 
 #### [rww-play](https://github.com/read-write-web/rww-play)
 LDP-compliant Read-Write-Web server written in Scala/Play/akka.
