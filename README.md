@@ -47,14 +47,4 @@ Not implemented: WAC, WebID-RSA, or WebID-Delegation.
 
 ## Libraries
 
-### Node.js
-* [node-webid](https://github.com/linkeddata/node-webid/) - library to manage
-    [WebID](http://www.w3.org/2005/Incubator/webid/spec/identity/) identities
-    and certificates.
-
-* [rdflib.js](https://github.com/linkeddata/rdflib.js/) - RDF library for
-    [Linked Data](http://www.w3.org/DesignIssues/LinkedData.html) applications.
-
-* [solid.js](https://github.com/solid/solid.js) - library to interact with
-    [Solid](https://github.com/solid/solid-spec)-compliant applications.
-    Creates and manages LDP containers, provides WebID authentication, and more.
+See https://solid.github.io/for-developers/apps/tools
